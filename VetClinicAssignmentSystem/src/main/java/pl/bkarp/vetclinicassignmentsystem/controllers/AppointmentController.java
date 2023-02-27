@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/abc")
+@RequestMapping("/appointment")
 public class AppointmentController {
 
     @GetMapping
     public String cos(){
-        return "asdcasdc";
+        return "appointment test";
     }
 }
