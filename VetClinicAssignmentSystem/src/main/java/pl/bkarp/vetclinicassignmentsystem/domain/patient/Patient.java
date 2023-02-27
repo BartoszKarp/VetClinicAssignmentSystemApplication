@@ -21,6 +21,8 @@ public class Patient {
     @GeneratedValue
     private UUID id;
 
+    String ownerFullName;
+
     String petName;
 
     String petType;
